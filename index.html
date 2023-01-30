@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ver Codigos</title>
-    
 
 </head>
 <body>
@@ -15,10 +14,22 @@
         </div>    
     <style>
         
+@media only screen and (max-width:480px) {
+  /* Para dispositivos móviles */
+  body {
+    font-size: 14px;
+  }
+}
           body {
      background-color: black;
     }
+  
+ body, .codehtml {
 
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
   .tezto {
     text-align: center;
     color: rgb(0, 109, 252);
@@ -45,16 +56,31 @@
     opacity: 1;
   }
 }
+.card { 
+  background-color: #363636; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); 
+  padding: 20px; 
+} 
+
+
+.card-body { 
+  font-family: sans-serif; 
+  font-size: 15px; 
+} 
+
+.card-title { 
+  font-weight: bold; 
+  color: #ffffff;
+  font-size: 20pt;
+}
 
 .comentarios{
     color: green;
 }
 .codehtml {
     color: rgb(0, 109, 252);
-    background-color:rgb(32, 32, 32);
-    text-align: 10px;
 }
-
 .B {
     color: #fff;
 }
@@ -86,21 +112,15 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+
   
-/* Estilos para pantallas de teléfono */
-@media only screen and (max-width: 400px 500px 600px 700px 800px 900px 2000px) { 
-  .body, .codehtml, .head .html .tezto {
-    font-size: 300px 400px 500px 2000px;
-    font-size: 700px 800px 900px 2000px ;
-    text-align: center;
-  } 
-}
-
-
     </style>
-<section>
-  <h5 style="color: rgb(54, 32, 32); font-size: 15pt; text-align: center;">Portafolio</h5>
- <div class="B">  
+
+<div class="card"> 
+    <div class="card-body"> 
+      <h5 class="card-title"> MI Portafolio</h5>
+      <h6 class="textoCode"><br>
+       <p class="card-text">
          <pre>
             <code>
                 <div class="codehtml">
@@ -204,12 +224,14 @@
             &lt;a<span class="A">href</span><span class="B">=</span><span class="Y">Aqui o numero celular</span>&gt;&lt;i<span class="A"> style</span><span class="B">=</span><span class="L">"color: white"</span><span class="A">class</span><span class="B">=</span><span class="L">"fa fa-phone"</span>&gt;&lt;/i&gt;&lt;/a&gt;
             &lt;a<span class="A">href</span><span class="B">=</span><span class="Y">Aqui o link do Gmail</span>&gt;&lt;i<span class="A"> style</span><span class="B">=</span><span class="L">"color: white"</span><span class="A">class</span><span class="B">=</span><span class="L">"fa fa-envelope"</span>&gt;&lt;/i&gt;&lt;/a&gt;
 
-</section>
+
 <h1 class="reparo">Esta em concerto...</h1>
 
             </code>
+
          </pre>
-</div>        
+      </p> 
+    </div> 
+  </div>        
 </body>
 </html>
-
